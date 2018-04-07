@@ -47,6 +47,8 @@ add_plugins:
   - meta
   - img
   - pagestats
+  - pagetemplate
+  - prettydate
   - toggle
   - trail
   - underlay
@@ -397,3 +399,6 @@ tag_autocreate_commit: 1
 # extra underlay directories to add
 add_underlays:
   - /home/amnesia/Persistent/Tails/promotion-material
+
+# prettydate plugin
+prettydateformat: '%Y-%m-%d'
